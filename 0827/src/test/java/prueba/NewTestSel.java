@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class NewTestSel {
   @Test
   public void testsel() {
-	  String exePath = "./src/test/resources/driver/chromedriver"; //En windows agregar .exe al final
+	    String exePath = "./src/test/resources/driver/chromedriver"; //En windows agregar .exe al final
 		System.setProperty("webdriver.chrome.driver",exePath);
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
