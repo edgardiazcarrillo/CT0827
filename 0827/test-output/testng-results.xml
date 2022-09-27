@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-31T05:58:47Z" name="Default suite" finished-at="2022-08-31T05:58:55Z" duration-ms="8581">
+  <suite started-at="2022-09-24T16:39:15Z" name="RegressionAutomatedQA" finished-at="2022-09-24T16:39:32Z" duration-ms="16489">
     <groups>
     </groups>
-    <test started-at="2022-08-31T05:58:47Z" name="Default test" finished-at="2022-08-31T05:58:55Z" duration-ms="8581">
-      <class name="prueba.NewTestSel">
-        <test-method signature="testsel()[pri:0, instance:prueba.NewTestSel@32502377]" started-at="2022-08-30T23:58:47Z" name="testsel" finished-at="2022-08-30T23:58:55Z" duration-ms="8563" status="PASS">
+    <test started-at="2022-09-24T16:39:15Z" name="TC_01_SarchBlouse" finished-at="2022-09-24T16:39:28Z" duration-ms="12503">
+      <class name="testCases_Search.TC_01_SearchBlouse">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:testCases_Search.TC_01_SearchBlouse@7a24eb3]" started-at="2022-09-24T10:39:15Z" name="startWebDriver" finished-at="2022-09-24T10:39:23Z" duration-ms="7972" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testsel -->
-      </class> <!-- prueba.NewTestSel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_01()[pri:0, instance:testCases_Search.TC_01_SearchBlouse@7a24eb3]" started-at="2022-09-24T10:39:23Z" name="TC_01" finished-at="2022-09-24T10:39:28Z" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testCases_Search.TC_01_SearchBlouse@7a24eb3]" started-at="2022-09-24T10:39:28Z" name="closeDriver" finished-at="2022-09-24T10:39:28Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCases_Search.TC_01_SearchBlouse -->
+    </test> <!-- TC_01_SarchBlouse -->
+    <test started-at="2022-09-24T16:39:15Z" name="TC_01_SarchDress" finished-at="2022-09-24T16:39:32Z" duration-ms="16489">
+      <class name="testCases_Search.TC_01_SearchDress">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:testCases_Search.TC_01_SearchDress@1a5b8489]" started-at="2022-09-24T10:39:15Z" name="startWebDriver" finished-at="2022-09-24T10:39:26Z" duration-ms="10465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_01()[pri:0, instance:testCases_Search.TC_01_SearchDress@1a5b8489]" started-at="2022-09-24T10:39:26Z" name="TC_01" finished-at="2022-09-24T10:39:32Z" duration-ms="5900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testCases_Search.TC_01_SearchDress@1a5b8489]" started-at="2022-09-24T10:39:32Z" name="closeDriver" finished-at="2022-09-24T10:39:32Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCases_Search.TC_01_SearchDress -->
+    </test> <!-- TC_01_SarchDress -->
+  </suite> <!-- RegressionAutomatedQA -->
 </testng-results>
